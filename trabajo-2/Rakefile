@@ -22,14 +22,14 @@ require 'pg'  #Ruby gem que se usa para conectar a postgres
 #Variables de entorno para la conexion con MySQL
 ENV['MYSQL_HOST'] ||= "localhost"
 ENV['MYSQL_USER'] ||= "root"
-ENV['MYSQL_PASSWD'] ||= "ingenieria"
+ENV['MYSQL_PASSWD'] ||= ""
 ENV['MYSQL_PORT'] ||= '3306'
 ENV['MYSQL_DB'] ||= "intro_joins"
 
 #Variables de entorno para la conexion con Postgres
 ENV['PG_HOST'] ||= "localhost"
 ENV['PG_USER'] ||= "postgres"
-ENV['PG_PASSWD'] ||= "ingenieria"
+ENV['PG_PASSWD'] ||= ""
 ENV['PG_PORT'] ||= '5432'
 =begin
   PostgreSQL requiere q se especifique una BD para establecer la conexion (maintenance database).
